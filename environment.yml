@@ -1,0 +1,29 @@
+name: aic20_track3
+channels:
+  - pytorch
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.7
+  - pip
+  - autopep8
+  - pylint
+  - numpy
+  - pandas
+  - scipy
+  - opencv
+  - matplotlib
+  - av
+  - ipykernel
+  - ipywidgets
+  - cython
+  - pytorch
+  - torchvision
+  - cudatoolkit=10.1
+  - cudnn
+  - pip:
+    - gputil
+    - moviepy
+    - pycocotools
+    - detectron2==0.1.2
+    - -f https://dl.fbaipublicfiles.com/detectron2/wheels/cu101/index.html
