@@ -26,7 +26,7 @@ VideoJob = namedtuple('Job', [
 class VideoSystem(System):
 
     def __init__(self, video_dir, cache_dir=None, stage_n=None,
-                 n_gpu=4, batch_size=6, stride=1):
+                 n_gpu=4, batch_size=4, stride=1):
         available_gpus = GPUtil.getAvailable(
             limit=n_gpu, maxLoad=0.2, maxMemory=0.2)
         n_available_gpu = len(available_gpus)

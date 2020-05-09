@@ -2,7 +2,7 @@
 set -e
 dir=$(dirname $(readlink -fn --  $0))
 cd ../
-python -m electricity.utils.test
+python -m ELECTRICITY-MTMC.utils.test
 
 cd $dir
 python ./identifier/preprocess/extract_img.py
