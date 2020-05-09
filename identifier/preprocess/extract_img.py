@@ -8,7 +8,7 @@ def argument_parser():
     parser = argparse.ArgumentParser(formatter_class=argparse.ArgumentDefaultsHelpFormatter)
     parser.add_argument('--tracklet_path', type=str, default="./exp/tracklets.txt",
                         help='path to the tracklets')
-    parser.add_argument('--data_path', type=str, default="/mnt/hdda/kevinq/aic_20_trac3",
+    parser.add_argument('--data_path', type=str, default="./datasets/aic_20_trac3",
                         help='path to the aicity 2020 track 3 folders')
     parser.add_argument('--output_path', type=str, default="./exp/imgs/aic_test",
                         help='path to the output dictionaries')

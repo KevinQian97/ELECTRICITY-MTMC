@@ -12,13 +12,13 @@ For more information please refer to our accepted paper in CVPR 2020 AI City Wor
 
 Firstly please download the project through:
 ```
-git clone https://github.com/KevinQian97/electricity.git
+git clone https://github.com/KevinQian97/ELECTRICITY-MTMC.git
 ```
 
 ## Prerequisites
 The code is built with many libraries, we have listed the official sites of part of them.
 If you encounter problems about the dependencies, please resort to these official sites for help.
-- [PyTorch](https://pytorch.org/) 1.4 (we did not try other versions of pytorch)
+- [PyTorch](https://pytorch.org/) 1.5 (we did not try other versions of pytorch)
 - [TensorboardX](https://github.com/lanpa/tensorboardX)
 - [Opencv](https://opencv.org/)
 - [Cython](https://cython.org/)
@@ -27,7 +27,7 @@ If you encounter problems about the dependencies, please resort to these officia
 
 We have prepared the environment config file and suggest build the environment through ANACONDA.
 ```
-cd (electricity-master)
+cd ELECTRICITY-MTMC
 conda env create -f environment.yml 
 conda activate aic20_track3
 ```
@@ -36,7 +36,7 @@ conda activate aic20_track3
 If you want to reproduce our results on AI City Challenge or train the model by yourself, please download the data set from: (https://www.aicitychallenge.org/2020-data-and-evaluation/)
 and put it under the folder datasets.
 Make sure the data structure is like:
-* code folder
+* ELECTRICITY-MTMC
   * datasets
     * aic_20_trac3
       * test (test folder)
@@ -57,14 +57,14 @@ Notice:The accuracy and map here is calculated on our inner split of validation 
 ## Inference
 If you just want inference or reproduce our results, you can directly download our pretrained model and:
 ```
-cd electricity-master
+cd ELECTRICITY-MTMC
 mkdir models
 cd models
 mkdir resnet101-Aic
 ```
 Then put the pretrained model under this folder and run:
 ```
-cd electricity-master
+cd ELECTRICITY-MTMC
 bash test.sh
 ```
 The final results will locate at path ./exp/track3.txt
