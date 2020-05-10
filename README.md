@@ -4,6 +4,15 @@ Authors: Yijun Qian, Lijun Yu, Wenhe Liu, Alexander G Hauptmann
 
 Email: yijunqia@andrew.cmu.edu, lijun@cmu.edu
 
+```bib
+@inproceedings{qian2020electricity,
+  title={ELECTRICITY: An Efficient Multi-camera Vehicle Tracking System for Intelligent City},
+  author={Qian, Yijun and Yu, Lijun and Liu, Wenhe and Hauptmann, Alexander G.},
+  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition Workshops},
+  year={2020}
+}
+```
+
 ## Overview
 We release the code for our winnning model on AI City 2020 Challenge (https://www.aicitychallenge.org/) Track 3.
 For more information please refer to our accepted paper in CVPR 2020 AI City Workshop.
