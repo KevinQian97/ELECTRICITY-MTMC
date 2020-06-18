@@ -3,7 +3,7 @@
 Authors: Yijun Qian, Lijun Yu, Wenhe Liu, Alexander G Hauptmann
 
 Email: yijunqia@andrew.cmu.edu, lijun@cmu.edu
-
+[Paper](http://openaccess.thecvf.com/content_CVPRW_2020/papers/w35/Qian_ELECTRICITY_An_Efficient_Multi-Camera_Vehicle_Tracking_System_for_Intelligent_City_CVPRW_2020_paper.pdf)
 ```bib
 @inproceedings{qian2020electricity,
   title={ELECTRICITY: An Efficient Multi-camera Vehicle Tracking System for Intelligent City},
