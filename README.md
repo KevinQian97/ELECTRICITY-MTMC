@@ -60,7 +60,9 @@ Make sure the data structure is like:
 
 ## Pretrained Models
 We also provided the pretrained model:
-Notice:The accuracy and map here is calculated on our inner split of validation set.
+Notice:
+The accuracy and map here is calculated on our inner split of validation set.
+The submission model is trained on both train and validation sets.
 | model             | Acc 1 |  MAP  | Epochs | Linkage                                                                                   |
 | ----------------- | ----- | ----- | ------ | ----------------------------------------------------------------------------------------- |
 | Agg_ResNet101     | 92.0% | 82.3% |   10   | [link](https://drive.google.com/file/d/1Z6E0h2qh3QWnfcj3kmt5UPXUz9EdSN0-/view?usp=sharing)|
