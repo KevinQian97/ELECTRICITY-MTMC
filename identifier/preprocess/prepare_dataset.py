@@ -98,6 +98,9 @@ def main():
         cam_id = img.split("_")[1]
         if cam_id not in test_list:
             shutil.move(os.path.join(test_path,img),os.path.join(train_path,img))
+        else:
+            shutil.copy(os.path.join(test_path,img),os.path.join(train_path,img))
+
 
 
 
